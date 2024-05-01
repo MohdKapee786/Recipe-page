@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Young Serif", serif;
+}
+
+.container{
+    width: 730px;
+    height: 1650px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 5px;
+
+}
+.image{
+    height: 300px;
+    width: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+.heading{
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+.main-p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+.Preparation-time{
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+.h3{
+    color: hsl(332, 51%, 32%);
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.list-1{
+    padding-left: 50px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+}
+b{
+    color: hsl(24, 5%, 18%);
+}
+li{
+    margin-top: 10px;
+}
+.Ingredients{
+    margin-top: 30px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    margin-left: 40px;
+}
+.list-2{
+    padding-left: 60px;
+    margin-right: 25px;
+    font-family: "Outfit", sans-serif;
+}
+.Instructions{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.list-3{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Outfit", sans-serif;
+}
+ol {
+    list-style-position: inside;
+    
+}
+.nutrition{
+    margin-top: 30px;
+}
+p{
+    margin-top: 20px;
+    padding-left: 40px;
+    font-family: "Outfit", sans-serif;
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* text-align: start; */
+    padding-left: 50px;
+}
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+tr{
+    border-top: 1.5px solid hsl(30, 18%, 87%);
+    border-width: 75%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+#line-1{
+    border-top: none;
+}
+td{
+    padding: 10px 40px;
+
+}
+#data{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+
+
